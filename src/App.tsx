@@ -38,15 +38,15 @@ function App() {
       {/* Main Content */}
       <main className="flex-1 w-full flex flex-col items-center justify-center mt-20 px-4 z-10 relative text-center">
         <Routes>
-          <Route path="/savewise/" element={
+          <Route path="/" element={
             <>
               <Hero />
               <Features />
               <Contact />
             </>
           } />
-          <Route path="/savewise/terms" element={<TermsofService />} />
-          <Route path="/savewise/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsofService />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
         </Routes>
       </main>
 
