@@ -45,8 +45,8 @@ function App() {
               <Contact />
             </>
           } />
-          <Route path="/terms" element={<TermsofService />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/savewise/terms" element={<TermsofService />} />
+          <Route path="/savewise/privacy" element={<PrivacyPolicy />} />
         </Routes>
       </main>
 
