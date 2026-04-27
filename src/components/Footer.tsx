@@ -37,7 +37,7 @@ export function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-6">Product</h4>
             <ul className="space-y-4">
-              <li><a href="/#features" className="text-gray-400 hover:text-white transition-colors text-sm">Features</a></li>
+              {/* <li><a href="/#features" className="text-gray-400 hover:text-white transition-colors text-sm">Features</a></li> */}
               {/* <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Integrations</a></li> */}
               {/* <li><a href="#pricing" className="text-gray-400 hover:text-white transition-colors text-sm">Pricing</a></li> */}
               {/* <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Changelog</a></li> */}
@@ -61,8 +61,8 @@ export function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-6">Legal</h4>
             <ul className="space-y-4">
-              <li><Link to="/privacy" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</Link></li>
-              <li><Link to="/terms" className="text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</Link></li>
+              <li><Link to="/savewise/privacy" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</Link></li>
+              <li><Link to="/savewise/terms" className="text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</Link></li>
               {/* <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Cookie Policy</a></li> */}
               {/* <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Security</a></li> */}
             </ul>
